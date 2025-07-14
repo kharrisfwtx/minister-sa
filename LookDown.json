@@ -1,0 +1,75 @@
+{
+  "id": "look_down",
+  "title": "Look Down",
+  "order": 3,
+  "focus": "Identifying obstacles—physical, mental, and spiritual—that drag us down and fuel burnout.",
+  "description": "Dig into the snares and stumbling blocks hindering your well-being and ministry effectiveness.",
+  "isUnlocked": false,
+  "unlockCriteria": {
+    "type": "mentorReview",
+    "required": true
+  },
+  "reflectionQuestions": [
+    {
+      "id": "look_down_rq1",
+      "prompt": "What physical habits or conditions (poor sleep, inactivity, illness) weigh on your energy and service?",
+      "type": "text"
+    },
+    {
+      "id": "look_down_rq2",
+      "prompt": "Which thought patterns (anxiety, perfectionism, negativity) trap your mind and cloud joy?",
+      "type": "text"
+    },
+    {
+      "id": "look_down_rq3",
+      "prompt": "Where do cynicism, apathy, doubt, or temptation undermine your faith and drain your spirit?",
+      "type": "text"
+    },
+    {
+      "id": "look_down_rq4",
+      "prompt": "Which ministry demands or personal patterns lead you toward exhaustion rather than rest?",
+      "type": "text"
+    },
+    {
+      "id": "look_down_rq5",
+      "prompt": "How does shame, guilt, or unresolved grief manifest in your body, thoughts, or prayers?",
+      "type": "text"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "look_down_task1",
+      "description": "Choose one snare in body, mind, or spirit; create an accountability plan with a trusted peer.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_down_task2",
+      "description": "List triggers for mental or emotional drain and develop a coping rhythm (rest breaks, prayer pauses).",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_down_task3",
+      "description": "Identify a spiritual temptation or discouragement; counter it with a chosen Scripture or practice.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_down_task4",
+      "description": "Seek professional help (counselor, spiritual director) to address deeper wounds or early burnout signs.",
+      "dueInDays": 14
+    }
+  ],
+  "followUpPrompts": [
+    {
+      "id": "look_down_fu1",
+      "prompt": "Which snare proved most persistent, and how did you begin to interrupt it?"
+    },
+    {
+      "id": "look_down_fu2",
+      "prompt": "What changes in sleep, thought patterns, or prayer life emerged?"
+    },
+    {
+      "id": "look_down_fu3",
+      "prompt": "How will you guard against returning to that stumbling block in the coming weeks?"
+    }
+  ]
+}

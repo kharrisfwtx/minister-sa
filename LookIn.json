@@ -1,0 +1,75 @@
+{
+  "id": "look_in",
+  "title": "Look In",
+  "order": 2,
+  "focus": "Examining heart posture, vocational alignment, and internal convictions.",
+  "description": "Turn inward to explore your convictions, identity in Christ, and inner dialogue across body, mind, and spirit.",
+  "isUnlocked": false,
+  "unlockCriteria": {
+    "type": "mentorReview",
+    "required": true
+  },
+  "reflectionQuestions": [
+    {
+      "id": "look_in_rq1",
+      "prompt": "What convictions or inner nudges have you sensed in prayer, thought patterns, or emotional stirrings?",
+      "type": "text"
+    },
+    {
+      "id": "look_in_rq2",
+      "prompt": "How do you perceive your identity in Christ apart from your ministerial title—what thoughts and feelings arise?",
+      "type": "text"
+    },
+    {
+      "id": "look_in_rq3",
+      "prompt": "Which fears, hopes, or wounds surface under stress or rest, and how do they affect your spirit?",
+      "type": "text"
+    },
+    {
+      "id": "look_in_rq4",
+      "prompt": "Are there hidden assumptions about God or yourself that your mind replays?",
+      "type": "text"
+    },
+    {
+      "id": "look_in_rq5",
+      "prompt": "How does your body react (tension, fatigue, release) when you dwell on these convictions or struggles?",
+      "type": "text"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "look_in_task1",
+      "description": "Write a prayer of confession, lament, or gratitude focused on one heart issue; note emotional and spiritual shifts.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_in_task2",
+      "description": "Journal recurring thoughts or dreams for two weeks, marking patterns in mind and heart.",
+      "dueInDays": 14
+    },
+    {
+      "id": "look_in_task3",
+      "description": "Share a significant conviction or struggle with a trusted mentor or peer.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_in_task4",
+      "description": "Meditate on identity passages (e.g., Galatians 2:20); practice centering prayer with mindful breathing.",
+      "dueInDays": 7
+    }
+  ],
+  "followUpPrompts": [
+    {
+      "id": "look_in_fu1",
+      "prompt": "What inner themes emerged in your body sensations, thoughts, or prayers?"
+    },
+    {
+      "id": "look_in_fu2",
+      "prompt": "How did Scripture or the Spirit speak into your heart and mind?"
+    },
+    {
+      "id": "look_in_fu3",
+      "prompt": "Which belief or posture will you lean into for deeper alignment with your calling?"
+    }
+  ]
+}

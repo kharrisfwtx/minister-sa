@@ -1,0 +1,80 @@
+{
+  "id": "look_up",
+  "title": "Look Up",
+  "order": 1,
+  "focus": "Cultivating intimacy with God through practices that engage body, mind, and spirit.",
+  "description": "Focus your gaze upward toward God—explore His presence, voice, and invitation in your life.",
+  "isUnlocked": false,
+  "unlockCriteria": {
+    "type": "mentorReview",
+    "required": true
+  },
+  "reflectionQuestions": [
+    {
+      "id": "look_up_rq1",
+      "prompt": "Describe your current prayer life: posture, environment, mental focus, and any physical rhythms.",
+      "type": "text"
+    },
+    {
+      "id": "look_up_rq2",
+      "prompt": "How do you engage Scripture—reading aloud, memorization, lectio divina—and what supports you physically and mentally?",
+      "type": "text"
+    },
+    {
+      "id": "look_up_rq3",
+      "prompt": "In corporate worship and community, how do your emotions and thoughts align with communal song and prayer?",
+      "type": "text"
+    },
+    {
+      "id": "look_up_rq4",
+      "prompt": "How often do you practice silence or solitude, and what bodily posture or space aids your listening?",
+      "type": "text"
+    },
+    {
+      "id": "look_up_rq5",
+      "prompt": "What fasting or simplicity practices have you tried, and how did your body and mind respond?",
+      "type": "text"
+    },
+    {
+      "id": "look_up_rq6",
+      "prompt": "How does serving others outside your formal role feed your spirit and affect your physical and emotional well-being?",
+      "type": "text"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "look_up_task1",
+      "description": "Recommit to one discipline this week; journal daily body sensations, thoughts, and spiritual insights.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_up_task2",
+      "description": "Schedule a half-day retreat: include guided meditation, a scripture walk, and silent reflection.",
+      "dueInDays": 14
+    },
+    {
+      "id": "look_up_task3",
+      "description": "Attend a new worship or service event; note emotional responses and spiritual takeaways.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_up_task4",
+      "description": "Try a 24-hour simplicity fast; record physical challenges and spiritual breakthroughs.",
+      "dueInDays": 7
+    }
+  ],
+  "followUpPrompts": [
+    {
+      "id": "look_up_fu1",
+      "prompt": "Which practice most engaged your body, mind, and spirit?"
+    },
+    {
+      "id": "look_up_fu2",
+      "prompt": "What did you learn about God’s presence through these rhythms?"
+    },
+    {
+      "id": "look_up_fu3",
+      "prompt": "How will you integrate that discipline into your ongoing formation?"
+    }
+  ]
+}

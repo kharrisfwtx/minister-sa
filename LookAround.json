@@ -1,0 +1,75 @@
+{
+  "id": "look_around",
+  "title": "Look Around",
+  "order": 4,
+  "focus": "Cultivating relationships, boundaries, and networks that sustain holistic ministry.",
+  "description": "Explore your support structures—mentors, peers, education, and boundaries—that uphold your ministry journey.",
+  "isUnlocked": false,
+  "unlockCriteria": {
+    "type": "mentorReview",
+    "required": true
+  },
+  "reflectionQuestions": [
+    {
+      "id": "look_around_rq1",
+      "prompt": "Who guides you spiritually and emotionally—mentors, spiritual directors, accountability partners—and how often do you connect?",
+      "type": "text"
+    },
+    {
+      "id": "look_around_rq2",
+      "prompt": "How do peer relationships and community groups encourage your health in body, mind, and spirit?",
+      "type": "text"
+    },
+    {
+      "id": "look_around_rq3",
+      "prompt": "What continuing education opportunities nurture your intellect, skills, and spiritual depth?",
+      "type": "text"
+    },
+    {
+      "id": "look_around_rq4",
+      "prompt": "How do you establish and maintain healthy boundaries around work hours, screen time, and rest?",
+      "type": "text"
+    },
+    {
+      "id": "look_around_rq5",
+      "prompt": "In what ways do family and personal relationships support or strain your emotional capacity?",
+      "type": "text"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "look_around_task1",
+      "description": "Schedule regular check-ins with a mentor or spiritual director for debriefing and prayer.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_around_task2",
+      "description": "Attend a workshop, conference, or course that feeds your mind and spirit.",
+      "dueInDays": 14
+    },
+    {
+      "id": "look_around_task3",
+      "description": "Draft a personal boundary agreement (work hours, digital sabbath) and share it with accountability partners.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_around_task4",
+      "description": "Plan a restorative gathering with family or friends that honors rest and relational health.",
+      "dueInDays": 7
+    }
+  ],
+  "followUpPrompts": [
+    {
+      "id": "look_around_fu1",
+      "prompt": "Which relationship or structure most upheld your body, mind, and spirit?"
+    },
+    {
+      "id": "look_around_fu2",
+      "prompt": "What boundary adjustments made space for holistic well-being?"
+    },
+    {
+      "id": "look_around_fu3",
+      "prompt": "How will you expand or deepen this network to prevent isolation and burnout?"
+    }
+  ]
+}

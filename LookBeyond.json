@@ -1,0 +1,89 @@
+{
+  "id": "look_beyond",
+  "title": "Look Beyond",
+  "order": 5,
+  "focus": "Casting eyes forward toward God’s unfolding purposes—surfacing gifts, emerging dreams, and long-term legacy.",
+  "description": "Look beyond the present—discern your calling, gifts, and vision for future ministry impact.",
+  "isUnlocked": false,
+  "unlockCriteria": {
+    "type": "mentorReview",
+    "required": true
+  },
+  "reflectionQuestions": [
+    {
+      "id": "look_beyond_rq1",
+      "prompt": "What doubts or questions about your vocational calling are surfacing, and how do they shape your direction?",
+      "type": "text"
+    },
+    {
+      "id": "look_beyond_rq2",
+      "prompt": "How do your spiritual gifts align with where God may be leading you next?",
+      "type": "text"
+    },
+    {
+      "id": "look_beyond_rq3",
+      "prompt": "What dreams or passions tug at your heart when you imagine the future of your ministry?",
+      "type": "text"
+    },
+    {
+      "id": "look_beyond_rq4",
+      "prompt": "Where do you sense God calling you beyond your current role or context?",
+      "type": "text"
+    },
+    {
+      "id": "look_beyond_rq5",
+      "prompt": "What impact or “fruit” do you hope your life and ministry will bear in five to ten years?",
+      "type": "text"
+    },
+    {
+      "id": "look_beyond_rq6",
+      "prompt": "How might digital rhythms—social media, screen time, notifications—support or distract you as you pursue this vision?",
+      "type": "text"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "look_beyond_task1",
+      "description": "Complete a spiritual-gifts inventory and identify one way to steward your top gift in a new context.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_beyond_task2",
+      "description": "Craft a vision board (digital or physical) mapping key dreams, goals, and people you hope to influence.",
+      "dueInDays": 14
+    },
+    {
+      "id": "look_beyond_task3",
+      "description": "Write a letter to yourself five years from now, describing what you’ve learned about calling and legacy.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_beyond_task4",
+      "description": "Interview a leader whose ministry you admire; note the gifts, rhythms, and practices that sustained their vision.",
+      "dueInDays": 7
+    },
+    {
+      "id": "look_beyond_task5",
+      "description": "Audit your digital habits for one week—track screen time, app usage, and notification patterns; plan boundaries that protect your forward-looking rhythms.",
+      "dueInDays": 7
+    }
+  ],
+  "followUpPrompts": [
+    {
+      "id": "look_beyond_fu1",
+      "prompt": "Which emerging vision or doubt demands your prayerful attention?"
+    },
+    {
+      "id": "look_beyond_fu2",
+      "prompt": "How did your gifts inventory clarify or complicate your sense of calling?"
+    },
+    {
+      "id": "look_beyond_fu3",
+      "prompt": "What digital boundary shifts will you implement to keep your long-term vision clear?"
+    },
+    {
+      "id": "look_beyond_fu4",
+      "prompt": "What first step will you take in the next month toward the future God is inviting you into?"
+    }
+  ]
+}
