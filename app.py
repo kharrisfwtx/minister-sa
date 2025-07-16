@@ -4,6 +4,10 @@ from flask import Flask, jsonify, send_from_directory, abort
 app = Flask(__name__)
 DATA_DIR = os.path.dirname(__file__)
 
+@app.route("/api/health", methods=["GET"])
+def health():
+    return jsonify({"status": "ok"})
+
 @app.route("/api/domains", methods=["GET"])
 def list_domains():
     with open(os.path.join(DATA_DIR, "domains.json")) as f:
@@ -17,3 +21,8 @@ def get_domain(domain_id):
     if not entry:
         abort(404)
     return send_from_directory(DATA_DIR, entry["file"], mimetype="application/json")
+# … your existing imports and routes …
+
+if __name__ == "__main__":
+    # debug=True gives you auto-reload on changes and better error pages
+    app.run(debug=True, host="0.0.0.0", port=5000)
