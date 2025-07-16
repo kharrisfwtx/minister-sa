@@ -42,10 +42,10 @@ function App() {
 
       {!loading && !error && (
         <ul>
-          {domains.map(d => (
-            <li key={d.id}>
-              <button onClick={() => fetchDomain(d.id)}>
-                {d.id.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+          {domains.map((d, idx) => (		
+            <li key={idx}>
+              <button onClick={() => fetchDomain(d)}>
+                {d.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
               </button>
             </li>
           ))}
@@ -56,4 +56,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
