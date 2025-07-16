@@ -17,11 +17,15 @@ def list_domains():
 def get_domain(domain_id):
     with open(os.path.join(DATA_DIR, "domains.json")) as f:
         manifest = json.load(f)
-    entry = next((d for d in manifest if d["id"] == domain_id), None)
-    if not entry:
-        abort(404)
-    return send_from_directory(DATA_DIR, entry["file"], mimetype="application/json")
+
+    if domain_id in manifest:
+        return send_from_directory(DATA_DIR, f"{domain_id}.json", mimetype="application/json")
+    else:
+        abort(404, description="Domain not found")
+
+
 # … your existing imports and routes …
+
 
 if __name__ == "__main__":
     # debug=True gives you auto-reload on changes and better error pages

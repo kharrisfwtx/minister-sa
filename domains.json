@@ -1,8 +1,8 @@
 [
-  { "id": "look_up",     "file": "LookUp.json" },
-  { "id": "look_down",   "file": "LookDown.json" },
-  { "id": "look_in",     "file": "LookIn.json" },
-  { "id": "look_out", "file": "LookOut.json" },
-  { "id": "look_ahead", "file": "LookAhead.json" }
-  { "id": "look_behind", "file": "LookBehind.json" }
+  "LookDown",
+  "LookUp",
+  "LookIn",
+  "LookOut",
+  "LookBack",
+  "LookAhead"
 ]
