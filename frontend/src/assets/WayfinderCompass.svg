@@ -1,0 +1,25 @@
+<svg width="300" height="280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Central hexagon outline -->
+  <polygon
+    points="150,20 260,80 260,200 150,260 40,200 40,80"
+    fill="none"
+    stroke="#333"
+    stroke-width="2"
+  />
+
+  <!-- Icon placeholders -->
+  <circle cx="150" cy="50"  r="12" fill="#eee" stroke="#999"/>
+  <circle cx="225" cy="115" r="12" fill="#eee" stroke="#999"/>
+  <circle cx="225" cy="185" r="12" fill="#eee" stroke="#999"/>
+  <circle cx="150" cy="230" r="12" fill="#eee" stroke="#999"/>
+  <circle cx=" 75" cy="185" r="12" fill="#eee" stroke="#999"/>
+  <circle cx=" 75" cy="115" r="12" fill="#eee" stroke="#999"/>
+
+  <!-- Direction labels -->
+  <text x="150" y="45"  text-anchor="middle" font-size="13" fill="#222">LookUp</text>
+  <text x="225" y="110" text-anchor="middle" font-size="13" fill="#222">LookAhead</text>
+  <text x="225" y="180" text-anchor="middle" font-size="13" fill="#222">LookOut</text>
+  <text x="150" y="225" text-anchor="middle" font-size="13" fill="#222">LookDown</text>
+  <text x=" 75" y="180" text-anchor="middle" font-size="13" fill="#222">LookBack</text>
+  <text x=" 75" y="110" text-anchor="middle" font-size="13" fill="#222">LookIn</text>
+</svg>
