@@ -1,5 +1,8 @@
+// src/App.js
+
 import React, { useState, useEffect } from 'react';
 import DomainDetail from './DomainDetail';
+import InteractivePlateHand from './components/InteractivePlateHand';
 import './App.css';
 
 function App() {
@@ -37,15 +40,25 @@ function App() {
     <div className="App">
       <h1>Spiritual Formation Domains</h1>
 
+      {/* interactive hand orbiting the compass */}
+      <InteractivePlateHand
+        svgSize={600}
+        handSize={60}
+        orbitRadius={240}
+		smoothing={0.08}
+        flip={true}
+      />
+
       {error && <div className="error">{error}</div>}
       {loading && <div className="loading">Loading…</div>}
 
       {!loading && !error && (
         <ul>
-          {domains.map((d, idx) => (		
+          {domains.map((d, idx) => (
             <li key={idx}>
               <button onClick={() => fetchDomain(d)}>
-                {d.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                {d.replace(/_/g, ' ')
+                  .replace(/\b\w/g, l => l.toUpperCase())}
               </button>
             </li>
           ))}
