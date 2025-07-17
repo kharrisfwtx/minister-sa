@@ -1,9 +1,12 @@
 {
-  "id": "look_beyond",
-  "title": "Look Beyond",
+  "id": "look_back",
+  "title": "Look Back",
   "order": 5,
-  "focus": "Casting eyes forward toward God’s unfolding purposes—surfacing gifts, emerging dreams, and long-term legacy.",
-  "description": "Look beyond the present—discern your calling, gifts, and vision for future ministry impact.",
+  "focus": "Reflecting on the significant life events and experiences that have shaped our identity, faith, and ministry.",
+  "description": "Look back at the things that have formed you, for better or worse, in your life.",
+  "reflection": "Reflecting on the significant life events and experiences that have shaped our identity, faith, and ministry is a powerful practice. These events, whether joyful or challenging, have contributed to who we are today and how we perceive our calling. By looking back, we can recognize God's hand in our journey, understand the lessons we've learned, and appreciate the growth we've experienced. This reflection helps us to acknowledge the past, heal from any wounds, and celebrate the milestones that have brought us closer to God. Consider the pivotal moments in your life and how they have influenced your faith and ministry. How has God used these experiences to shape your character and guide your path?",
+  "verse": "Remember the former things, those of long ago; I am God, and there is no other; I am God, and there is none like me. - Isaiah 46:9 (NIV)",
+  "prayer": "Heavenly Father, we thank You for the journey You have led us on and the events that have shaped us. Help us to reflect on our past with gratitude and understanding, recognizing Your hand in every moment. Heal any wounds that still linger and allow us to celebrate the growth and lessons learned. May our reflections draw us closer to You and strengthen our faith. Guide us as we move forward, using our experiences to serve and honor You. In Jesus' name, we pray. Amen.",
   "isUnlocked": false,
   "unlockCriteria": {
     "type": "mentorReview",

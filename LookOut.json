@@ -1,9 +1,12 @@
 {
-  "id": "look_around",
-  "title": "Look Around",
+  "id": "look_out",
+  "title": "Look Out",
   "order": 4,
   "focus": "Cultivating relationships, boundaries, and networks that sustain holistic ministry.",
   "description": "Explore your support structures—mentors, peers, education, and boundaries—that uphold your ministry journey.",
+  "reflection": "Building and maintaining healthy relationships and boundaries is essential for sustaining a holistic ministry. Relationships with family, friends, colleagues, and the community provide support, encouragement, and accountability. Establishing clear boundaries helps protect our time, energy, and emotional well-being, allowing us to serve others effectively without experiencing burnout. Reflect on the relationships and networks in your life. Are they nurturing and supportive? Are your boundaries clear and respected? Consider how you can cultivate and strengthen these connections to enhance your ministry.",
+  "verse": "Two are better than one, because they have a good return for their labor: If either of them falls down, one can help the other up. But pity anyone who falls and has no one to help them up. - Ecclesiastes 4:9-10 (NIV)",
+  "prayer": "Heavenly Father, we thank You for the relationships and networks You have placed in our lives. Help us to cultivate and maintain healthy connections that support and sustain our ministry. Grant us wisdom in establishing clear boundaries that protect our well-being and enable us to serve others effectively. May our relationships be filled with love, encouragement, and accountability, reflecting Your grace and truth. Strengthen our bonds with those around us and guide us in building a community that honors You. In Jesus' name, we pray. Amen.",
   "isUnlocked": false,
   "unlockCriteria": {
     "type": "mentorReview",
@@ -11,64 +14,64 @@
   },
   "reflectionQuestions": [
     {
-      "id": "look_around_rq1",
+      "id": "look_out_rq1",
       "prompt": "Who guides you spiritually and emotionally—mentors, spiritual directors, accountability partners—and how often do you connect?",
       "type": "text"
     },
     {
-      "id": "look_around_rq2",
+      "id": "look_out_rq2",
       "prompt": "How do peer relationships and community groups encourage your health in body, mind, and spirit?",
       "type": "text"
     },
     {
-      "id": "look_around_rq3",
+      "id": "look_out_rq3",
       "prompt": "What continuing education opportunities nurture your intellect, skills, and spiritual depth?",
       "type": "text"
     },
     {
-      "id": "look_around_rq4",
+      "id": "look_out_rq4",
       "prompt": "How do you establish and maintain healthy boundaries around work hours, screen time, and rest?",
       "type": "text"
     },
     {
-      "id": "look_around_rq5",
+      "id": "look_out_rq5",
       "prompt": "In what ways do family and personal relationships support or strain your emotional capacity?",
       "type": "text"
     }
   ],
   "tasks": [
     {
-      "id": "look_around_task1",
+      "id": "look_out_task1",
       "description": "Schedule regular check-ins with a mentor or spiritual director for debriefing and prayer.",
       "dueInDays": 7
     },
     {
-      "id": "look_around_task2",
+      "id": "look_out_task2",
       "description": "Attend a workshop, conference, or course that feeds your mind and spirit.",
       "dueInDays": 14
     },
     {
-      "id": "look_around_task3",
+      "id": "look_out_task3",
       "description": "Draft a personal boundary agreement (work hours, digital sabbath) and share it with accountability partners.",
       "dueInDays": 7
     },
     {
-      "id": "look_around_task4",
+      "id": "look_out_task4",
       "description": "Plan a restorative gathering with family or friends that honors rest and relational health.",
       "dueInDays": 7
     }
   ],
   "followUpPrompts": [
     {
-      "id": "look_around_fu1",
+      "id": "look_out_fu1",
       "prompt": "Which relationship or structure most upheld your body, mind, and spirit?"
     },
     {
-      "id": "look_around_fu2",
+      "id": "look_out_fu2",
       "prompt": "What boundary adjustments made space for holistic well-being?"
     },
     {
-      "id": "look_around_fu3",
+      "id": "look_out_fu3",
       "prompt": "How will you expand or deepen this network to prevent isolation and burnout?"
     }
   ]

@@ -38,7 +38,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Spiritual Formation Domains</h1>
+      <h1>The Wayfinder's Guide</h1>
+	  <p>The Wayfinder's Guide is a tool of Orchard's Gate, a discipleship content and program suite that trains believers in Jesus Christ how to live a life that engages the powerful presence of the Holy Spirit, practices the character of Christ, and leads experienced believers into a life-long practice of the character of Jesus Christ.</p>
+	  <p>This guide is designed to be used with a Spiritual Director, a mentor that helps believers traverse the path of leaving behind the fleshly problems that plague believers, so that they might engage the Holy Spirit in practicing a life that is righteous and whole in body, mind, and spirit.</p>
 
       {/* interactive hand orbiting the compass */}
       <InteractivePlateHand
